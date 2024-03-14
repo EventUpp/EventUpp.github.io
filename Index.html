@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventUp</title>
+   
+    <link rel="stylesheet"
+    href="general.css">
+    
+     <link rel="stylesheet"
+    href="index.css">
+    
+    <script src="archivo.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Oswald:wght@200..700&family=Rajdhani:wght@600&display=swap" rel="stylesheet">
+
+<!-- Agrega esto en el head de tu archivo HTML -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1 id="inicio">EventUp</h1>
+        
+    
+
+    </header>
+
+<section class="contenedor_texto-presentacion">
+
+    <div class="texto_presentacion">
+    <h2><b>¿LISTO/A PARA ALGO NUEVO?
+    </b></h2>
+    <h3>Descubre eventos emocionantes en tu ciudad</h3>
+    </div>
+  
+  
+  
+    <div id="contenedor_selector-de-pais">
+  
+    <select id="paisSelect" onchange="redireccionar()">
+    <option value="" disabled selected>Selecciona un lugar</option>
+  <option value="CT">Cataluña</option>
+</select>
+  </div>    
+
+</section>
+
+    
+
+    <footer>
+        <p>&copy; 2024 EventUp</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

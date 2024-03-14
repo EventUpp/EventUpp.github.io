@@ -1,0 +1,32 @@
+/* Estilos del archivo index.html */
+
+.contenedor_texto-presentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 71vh; 
+   
+}
+
+.texto_presentacion {
+    text-align: center;
+    font-size: 0.7rem;
+   
+}
+
+.contenedor_presentacion h3 {
+    
+}
+
+#contenedor_selector-de-pais {
+    text-align: center;
+    margin-top: 25px;
+    
+}
+
+#paisSelect{
+  padding: 6px;
+  color: grey;
+  
+}

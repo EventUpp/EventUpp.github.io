@@ -1,0 +1,81 @@
+/* Estilos del archivo cataluña.html */
+
+  /* general */
+  
+.diseño_cataluña {
+  
+  background: linear-gradient(to right, #e8d400 50%, #ff00005c 50%);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline;
+}
+
+/* ------------------- */
+
+ /* selector de pais */
+
+#paisSelectCAT {
+    appearance: none; /* Oculta el estilo predeterminado del navegador */
+    background-color: #f8f9fa; /* Color de fondo */
+    color: #343a40; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    border: 2px solid #ced4da; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-family: 'Arial', sans-serif; /* Fuente */
+    font-size: 16px; /* Tamaño de fuente */
+    outline: none; /* Elimina el contorno al enfocar */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    height: 1rem;
+    width: 5rem;
+}
+
+.contenedor_bandera{
+ 
+ margin-right: -5rem;
+  
+}
+
+.bandera-cataluna {
+
+    width: 25px; /* Ancho de la bandera */
+    height: 15px; /* Altura de la bandera */
+    background: linear-gradient(to right, yellow 33.33%, red 33.33% 66.66%, yellow 66.66%);
+ 
+}
+
+/* ------------------- */
+
+/* ventana eventos destacados en */
+
+.ventana_eventos-destacados{
+ 
+  display: flex;
+  align-items: center;
+ 
+  background-color:#41562b5c;
+  border-radius: 25px;
+  height: 2rem;
+  font-size: 10px;
+  
+  padding: 6px;
+  margin-top: 20px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  
+}
+
+#texto_eventos-destacados-en{
+  
+  margin-right: auto;
+  margin-left: 2rem;
+  
+}
+
+ #contenedor_lugar-eventos{
+   
+   margin-left: auto;
+   margin-right: -1rem;
+  
+}
+
+/* ------------------- */
